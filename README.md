@@ -73,3 +73,18 @@ README uruchamia projekt w labie.
 PR „zamiana” (B) nie łamie funkcji partnera.
 Wymaganie dodatkowe - wdrożenie online:
 Każdy powinien udostępnić aplikacji w internecie, działającą na publicznym adresie (domena lub darmowa subdomena). Hosting i konfiguracja środowiska są częścią zadania - należy samodzielnie dobrać technologię i usługę. Wybór hostingu ma być praktyczny i uzasadniony to element oceny. Celem jest, aby projekt mógł być traktowany jak produkt komercyjny - z własnym adresem URL, dostępny publicznie.
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
+Project "Sklep spożywczy online"
+
+Architektura i technologia:
+* Node.js z frameworkiem Express
+* MySQL jako baza danych
+* Sequelize ORM do obslugi bazy + migracje
+* Joi do walidacji danych
+
+Frontend:
+* JavaScript
+* HTML5
+* CSS3
+
+Hosting:
