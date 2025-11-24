@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sklep spożywczy - Producty</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>"Sklep spożywczy"</h1>
+
+    <section id="form">
+        <h2 id="formTitle">Dodaj nowy produkt</h2>
+        <input type="text" id="name" placeholder="Nazwa produktu">
+        <input type="number" id="price" placeholder="Cena produktu" step="0.01">
+        <input type="number" id="stock" placeholder="Ilość produktu w sklepie">
+        <textarea id="description" placeholder="Opis produktu"></textarea>
+        <button id="saveBtn">Zapisz</button>
+        <button id="cancelBtn" style="display:none;">Anuluj</button>
+    </section>
+    <section id="productList">
+        <h2>Lista produktów</h2>
+        <table id="productsTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nazwa</th>
+                    <th>Cena</th>
+                    <th>Stock</th>
+                    <th>Opis</th>
+                    <th>Akcje</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>    
+     <script src="script.js"></script>
+</body>
+</html>
